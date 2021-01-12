@@ -1,4 +1,4 @@
-# qatechradar
+# QA-Tech-Radar
 
 ## Project setup
 ```
