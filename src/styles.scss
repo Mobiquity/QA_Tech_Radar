@@ -1,0 +1,166 @@
+@import url("//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic");
+
+body {
+  color: #00070a;
+  font-family: titillium web, Helvetica, Arial, sans-serif;
+  height:100%;
+  position: relative;
+}
+
+#app {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+html {
+  align-content: center;
+  justify-content: center;
+  height:100%;
+  position: relative;
+}
+
+text {
+  font-weight: bold;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5em;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+
+  &-large {
+    flex-basis: 100%;
+    display: inline-block;
+    font-size: 0.8em;
+  }
+  &-small {
+    flex-basis: 100%;
+    display: inline-block;
+    font-size: 0.5em;
+  }
+}
+
+.banner h1 {
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+  margin-bottom: 0;
+  font-weight: 700!important;
+	text-align: center;
+	font-size: 3.5rem;
+	padding-bottom: .5rem
+}
+
+.banner {
+  background: #e45f2a;
+  color: rgb(255, 255, 255);
+  opacity: 0.99;
+  box-shadow: 0 0 2px 6px #ccc;
+  padding: 4rem;
+  display:block
+}
+
+.banner h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 300!important;
+	margin-bottom: 0
+}
+
+header {
+    background-position:center ;
+    background-size: cover;
+    height: 1vh;
+    background-attachment: fixed;
+    margin-bottom: 1rem;
+}
+
+#main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+#logo {
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#main-nav li a:link,
+#main-nav li a:visited {
+    color: #e45f2a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.4s;
+}
+
+#main-nav li a:hover,
+#main-nav li a:active {
+    border-bottom: 2px solid #e45f2a ;
+}
+
+.navbar-link {
+	font-family: 'titillium web';
+	font-size: 1.5rem!important;
+	padding-top: 0!important;
+    color: #e45f2a!important;
+    background-color:rgba(255, 255, 255, 0.98);
+    box-shadow: 0 1px 0 #ffffff;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height:100px;
+  position:absolute;
+}
+
+.footer-nav { 
+  list-style:none;
+  float:left;
+}
+
+.footer-nav li {
+  display:inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+   text-decoration: none;
+   border: 0;
+   color:#888;
+   transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active
+{
+ color:#ddd;
+}
+footer .row-copyright {
+  color:#888;
+  font-size:80%;
+}
+
